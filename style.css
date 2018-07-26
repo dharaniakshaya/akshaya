@@ -1,0 +1,39 @@
+body{
+background-color:yellow;
+}
+.button{
+	display:inline-block;
+	width:100px;
+	height:25px;
+	background-color:red;
+	
+}
+
+a
+{
+	    text-decoration:none;
+}
+
+
+.mySlides1{
+		display: inline-block;
+        
+}
+#d1{
+	margin-left:50px;
+}
+#body{
+background-color:red;
+}
+h3{
+	color:white;
+	text-shadow:0px 0px 5px green;
+	text-indent:50px;
+	-webkit-column-count:3;
+	
+}
+
+
+.w3{
+	margin-left="400px";
+}
