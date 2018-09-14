@@ -1,0 +1,230 @@
+<html>
+   <head>
+      <title>Custom Gift</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" type="text/css" href="customgift.css"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <div class="top_content">
+         <a href = " " class="top_content_para">Customer Service | Email | Sign In | <i class="material-icons" style="font-size:17px"> 
+            enhanced_encryption</i> 9 Items Checkout <i class="fa fa-angle-double-right"></i> 
+         </p>
+      </div>
+      <div class="upper_block">
+         <div class="left_column_block">
+            <span class="left_column_span">pure</span><br><span class="left_column_span_one">privilege<sup style="font-size:10px">sm</sup></span>
+         </div>
+         <div class="right_column_block">
+            <span class="right_column_span">free shipping</span> <br> <span class="right_column_span_one">and samples.</span>
+            <span style="color:#9cb946">learnmore<i class="fa fa-angle-double-right"></i></span>
+         </div>
+      </div>
+      <div id="aveda_logo">
+         <a class="o-navbar-logo loaded" title="Aveda">
+         <img src="Aveda_logo.png" class="logo" alt="Aveda" title="Aveda"/>
+         </a>
+      </div>
+      <!--Logo for Mobile-->
+         <div id="responsive_logo">
+            <a class="nav-responsive-logo" title="Aveda">
+            <img src="responsive_aveda.png" class="logo_response" alt="Aveda" title="Aveda"/>
+            </a>
+         </div>
+      <div class="top_buttons"> 
+         <input type="text" class="search__button" value="Search" name="search"/>
+         <button type="submit" class="go_button">Go</button>
+         <button class="find_button">FIND A LOCATION</button>
+         <button class="video_button"><i class="fa fa-play-circle"></i>VIDEOS</button>
+      </div>
+      <div class="navigation_bar">
+         <div id="myTopnav" class="topnav">
+            <a href="#">HAIR CARE</a>
+            <a href="#">INVATI<sup style="font-size:8px">TM</sup></a>
+            <a href="#">STYLING</a>
+            <a href="#">SKIN CARE</a>
+            <a href="#">BODY</a>
+            <a href="#">MEN</a>
+            <a href="#">MAKEUP</a>
+            <a href="#">PURE-FUME<sup style="font-size:8px">TM</sup></a>
+            <a href="#">GIFTS</a>
+            <a href="#">DISCOVER AVEDA</a>
+            <a href="#">PROFESSIONAL</a>
+            <a href="#">NEW</a>
+            <a href="#">OFFERS</a>
+         </div>
+      </div>
+      <div class ="mobile_navigation">
+         <div id="myMblnav" class="mblnav">
+            <a href="#" style="font-size:25px">PRODUCT</a>
+            <a href="#" style="font-size:25px">CART</a>
+            <a href="#" style="font-size:25px">SIGNIN</a>
+         </div>
+      </div>
+      <div class="whole_content">
+         <div class="cart_return" style="margin-top:22px">
+            <a href = "" style="color:#9cb946;text-decoration: underline; margin-left:45px">
+            <i class="fa fa-angle-double-left" style="color:#9cb946;text-decoration: underline"></i> Return to Cart
+            </a>
+         </div>
+         <div class="icon">
+            <a href = ""><i class="fa fa-phone" style= "font-size:18px, float:right"></i>
+            Call 24/7:800-644-4831</a>
+            <a href = " "><i class="fa fa-envelope-o" style= "font-size:18px" ></i>
+            Email 24/7</a>
+            <a href = " "><i class="fa fa-commenting-o" style= "font-size:18px"></i>
+            Chat live with an expert</a>
+         </div>
+      </div>
+      <ul class="free_sample">
+         <li style="font-size:30px"></li>
+	<li style="color:#808080"></li>
+         <hr>
+         <div class="sample_selection">
+            Filter by your hair or skin concern: <input type="button" value="ALL SAMPLES" class="sample_selection_button">
+            <button class="icon_button" type="submit"><span style="font-size:20px;color: white"><i class="fa fa-caret-down"></i></span></button>
+         </div>
+      </ul><br>
+      <ul class="responsive__free__sample">
+         <li style="font-size:40px">Choose a FREE sample</li>
+		 <li style="color:#808080"> Choose 1 free sample below and click Continue.</li><br>
+            <input type="button" value="ALL SAMPLES" class="response_sample_selection_button"/>
+            <button class="response_icon_button" type="submit"><span style="font-size:20px;color: white"><i class="fa fa-caret-down"></i>
+			</span></button>
+         </ul>
+      </div>
+      <div class="continue_button">
+         <input type="button" id="continue" value ="CONTINUE" onclick="mycontinue()"/>
+		 </div>
+		 <div class="skip">
+         <a href=" " class="skip_para">SKIP THIS <i class="fa fa-angle-double-right" style="color:#9cb946;text-decoration: underline">
+            </i>
+         </a>
+      </div>
+      <div class="categories">
+         <div class="main_category">
+            <!--first category-->
+            <div class="items_list" id="first_category">
+               <p class="items_heading"><strong>HAIR CARE: Repair Damage</strong></p>
+               <div class="category" id="model_one">
+                  <img src="dove 1.png" class="img" alt="HAIR CARE: Repair Damage" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__one" class="select select_zero" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_two">
+                  <img src="dove 1.png" class="img" alt="HAIR CARE: Repair Damage"  width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__two" class="select select_zero" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class ="category" id="model_three">
+                  <img src="dove 1.png"  class="img" alt="HAIR CARE: Repair Damage" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__three" class="select select_zero" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class ="category" id="model_four">
+                  <img src="dove 1.png"  class="img" alt="HAIR CARE: Repair Damage" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__four" class="select select_zero" value ="SELECT" onclick="enabfn()"/>
+               </div>
+            </div>
+            <!--Second Category-->
+            <div class="items_list" id="second_category">
+               <p class="items_heading"><strong>HAIR CARE: Thinning Solutions</strong></p>
+               <div class="category" id="model_five">
+                  <img src="dove 3.png" class="img" alt="HAIR CARE: Thinning Solutions" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__five" class="select select_one" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_six">
+                  <img src="dove 3.png" class="img" alt="HAIR CARE: Thinning Solutions" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__six" class="select select_one" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_seven">
+                  <img src="dove 3.png" class="img" alt="HAIR CARE: Thinning Solutions"  width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button"  id="button__seven" class="select select_one" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_eight">
+                  <img src="dove 3.png" class="img" alt="HAIR CARE: Thinning Solutions" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button"  id="button__eight" class="select select_one" value ="SELECT" onclick="enabfn()"/>
+               </div>
+            </div>
+            <!--Third Category-->
+            <div class="items_list" id="third_category">
+               <p class="items_heading"><strong>HAIR CARE: Add Shine</strong></p>
+               <div class="category" id="model_nine">
+                  <img src="dove 2.png" class="img" alt="HAIR CARE: Add Shine" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__nine" class="select select_two" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_ten">
+                  <img src="dove 2.png" class="img" alt="HAIR CARE: Add Shine" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__ten" class="select select_two" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_eleven">
+                  <img src="dove 2.png" class="img" alt="HAIR CARE: Add Shine"  width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button"  id="button__eleven" class="select select_two" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_twelve">
+                  <img src="dove 2.png" class="img" alt="HAIR CARE: Add Shine" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button"  id="button__twelve" class="select select_two" value ="SELECT" onclick="enabfn()"/>
+               </div>
+            </div>
+            <!--Fourth Category-->
+            <div class="items_list" id="fourth_category">
+               <p class="items_heading"><strong>HAIR CARE: Add Moisture</strong></p>
+               <div class="category" id="model_thirteen">
+                  <img src="dove 5.png" class="img" alt="HAIR CARE: Add Moisture"  width="100%"/>
+                  <p  class="product__name"></p>
+                  <p  class="product__description"></p>
+                  <input type="button" id="button__thirteen" class="select select_three" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_fourteen">
+                  <img src="dove 5.png" class="img" alt="HAIR CARE: Add Moisture" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__fourteen" class="select select_three" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_fifteen">
+                  <img src="dove 5.png" class="img" alt="HAIR CARE: Add Moisture" width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__fifteen" class="select select_three" value ="SELECT" onclick="enabfn()"/>
+               </div>
+               <div class="category" id="model_sixteen">
+                  <img src="dove 5.png" class="img" alt="HAIR CARE: Add Moisture"  width="100%"/>
+                  <p class="product__name"></p>
+                  <p class="product__description"></p>
+                  <input type="button" id="button__sixteen" class="select select_three" value ="SELECT" onclick="enabfn()"/>
+               </div>
+            </div>
+         </div>
+         <div id="sample">
+            <p class="cart_heading"><strong>Your Sample</strong></p>
+            <hr>
+         </div>
+      </div>
+      <input type="button"  class="return" value ="RETURN TO CART"/>
+      <script src="disenable.js" type= "text/javascript"></script>
+      <script src="customgift1.js" type= "text/javascript" ></script>
+   </body>
+</html>
